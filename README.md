@@ -7,7 +7,7 @@ This project connects to the Art Institute of Chicago’s open API and lets user
 
 ## ✨ View Live App
 
-🔮 **Experience the magic here:** _[View Live App]((https://cosmic-jalebi-1b637a.netlify.app/))_
+🔮 **Experience the magic here:** _[View Live App](https://cosmic-jalebi-1b637a.netlify.app/)_
 
 > (PS: works best with coffee and chill vibes ☕🎧)
 
