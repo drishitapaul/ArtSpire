@@ -1,40 +1,23 @@
-# 🎨 ArtSpire — A React Art Gallery App
+# 🎨 ArtSpire — The React Art Gallery
 
-Welcome to **ArtSpire** — a sleek, modern art gallery explorer built using React + Vite + TypeScript + PrimeReact.  
-It fetches masterpieces from the Art Institute of Chicago API, letting users browse and select artworks with ease.
+Welcome to **ArtSpire**, your personal gateway to a curated world of art — built with React, TypeScript, and a sprinkle of frontend fairy dust.  
+This project connects to the Art Institute of Chicago’s open API and lets users explore timeless masterpieces with a modern UI.
 
 ---
 
-## 🌐 Live Demo
+## ✨ View Live App
 
-🔗 [https://artspire.netlify.app](https://your-netlify-link.netlify.app)  
-📦 [View on GitHub](https://github.com/your-username/artspire)
+🔮 **Experience the magic here:** _[View Live App]((https://cosmic-jalebi-1b637a.netlify.app/))_
+
+> (PS: works best with coffee and chill vibes ☕🎧)
 
 ---
 
 ## 💡 Features
 
-- ⚡ **Lightning-fast** thanks to Vite and TypeScript
-- 🖼️ Displays artworks with details like title, origin, artist, and more
-- 📄 Server-side **pagination** from live API
-- ✅ **Multi-row selection** with persistent state across pages
-- 💾 State management without memory leaks (no over-fetching)
-- 📦 Deployed on Netlify (production build)
-
----
-
-## 📸 Screenshots
-
-<img src="https://your-screenshot-link.com" alt="screenshot" width="600"/>
-
----
-
-## 🛠️ Tech Stack
-
-- ⚛️ React + Vite
-- 🧠 TypeScript
-- 💠 PrimeReact DataTable
-- 🎨 Tailwind CSS (if used)
-- 🌐 Netlify for deployment
-- 📡 REST API: [Art Institute of Chicago](https://api.artic.edu/api/v1/artworks)
-- 
+- 📦 **Server-side pagination** for buttery-smooth browsing
+- 🧠 **Row selection** that persists across page switches (yep, it’s that smart)
+- 🖼️ Shows artwork details: title, artist, origin, date, inscriptions
+- 🌐 Real-time data from the Art Institute of Chicago API
+- 💻 Built with Vite + React + PrimeReact + TypeScript
+- 📱 Fully responsive and mobile-friendly
