@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0e3b43; /* midnight_green */
+  color: #edf2ef; /* ash_gray[900] */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+h2 {
+  color: #edf2ef;
+  font-weight: 600;
+}
+
+img {
+  height: 2.5rem;
+}
+
+/* Selected Artworks Panel */
+.selected-panel {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.selected-panel:hover {
+  transform: translateY(-2px);
+}
+
+button {
+  background-color: #357266; /* myrtle_green */
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #2a5c52;
+  transform: scale(1.03);
+}
+
+input[type="checkbox"] {
+  accent-color: #a3bbad;
+}
+
+/* List of selected items */
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  color: #312509;
+  margin-bottom: 0.3rem;
+}
+
+/* DataTable styling */
+.p-datatable thead {
+  background-color: #a3bbad; /* ash_gray */
+  color: #0e3b43;
+}
+
+.p-datatable tr:hover {
+  background-color: #dbe4df !important; /* ash_gray[800] */
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background-color: #dbe4df !important;
+  color: #0e3b43;
+}
+.p-datatable .p-datatable-tbody > tr.p-highlight:hover {
+  background-color: #c8d6d2 !important; /* ash_gray[700] */
+} 
